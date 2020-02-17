@@ -1,0 +1,16 @@
+redux
+1. single source of truth (1 big object)
+2. state is read only. (immutable)
+3. changes using pure functions. 
+
+redux flow (flux pattern)
+1. action (event)
+2. root reducer (receive input and creates output)
+3. store (receive the output from reducer)
+4. dom changes
+
+flux
+1. action
+2. dispatcher
+3. store
+4. view
